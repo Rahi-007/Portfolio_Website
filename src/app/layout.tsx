@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Salsa, Roboto_Condensed } from "next/font/google";
-import "../style/globals.css";
 import { ThemeProvider } from "@/provider/themeProvider";
+import "../style/base.css";
 
 const salsa = Salsa({
   variable: "--font-salsa",
@@ -16,8 +16,8 @@ const roboto = Roboto_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template",
-  description: "A production-ready Next.js starter template with TypeScript, Tailwind CSS, and shadcn/ui",
+  title: "Portfolio Website",
+  description: " ",
 };
 
 export default function RootLayout({

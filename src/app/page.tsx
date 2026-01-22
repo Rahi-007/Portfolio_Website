@@ -14,10 +14,9 @@ export default function Home() {
   return (
     <div className="p-4">
       <div>
-        <Navbar />
-        <Hero />
+        {/* <Hero /> */}
       </div>
-      <About />
+      {/* <About />
       <Experience />
       <Tech />
       <Works />
@@ -25,7 +24,7 @@ export default function Home() {
       <div>
         <Contact />
         <Stars />
-      </div>
+      </div> */}
     </div>
   );
 }

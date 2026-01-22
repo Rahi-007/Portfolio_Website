@@ -1,23 +1,19 @@
 import type { Metadata } from "next";
-import { Salsa, Roboto_Condensed } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { ThemeProvider } from "@/provider/themeProvider";
+import Navbar from "@/components/layouts/Navbar";
 import "../style/base.css";
 
-const salsa = Salsa({
-  variable: "--font-salsa",
+const poppins = Poppins({
+  variable: "--font-popping",
   subsets: ["latin"],
   weight: "400",
 });
 
-const roboto = Roboto_Condensed({
-  variable: "--font-roboto-condensed",
-  subsets: ["latin"],
-  weight: "500",
-});
-
 export const metadata: Metadata = {
-  title: "Portfolio Website",
-  description: " ",
+  icons: { icon: "/logo.svg" },
+  title: "Rubaied Ahammed Rahi",
+  description: "This is personal portfolio website",
 };
 
 export default function RootLayout({
@@ -27,13 +23,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${salsa.variable} ${roboto.variable} antialiased`}>
+      <body className={`${poppins.variable} antialiased`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem={false}
           disableTransitionOnChange
         >
+          <Navbar />
           {children}
         </ThemeProvider>
       </body>

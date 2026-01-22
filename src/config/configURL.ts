@@ -1,5 +1,8 @@
 //W <Comment>---------={ API_BASE_URL }=----------</Comment>
-export const API_BASE_URL = process.env.NEXT_PUBLIC_Backend_API_URL || process.env.Backend_API_URL || 'http://localhost:8001';
+export const API_BASE_URL =
+  process.env.NEXT_PUBLIC_Backend_API_URL ||
+  process.env.Backend_API_URL ||
+  "http://localhost:8001";
 
 export const API_URLS = {
   books: {

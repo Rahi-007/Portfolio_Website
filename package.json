@@ -1,37 +1,29 @@
 {
   "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "A production-ready Next.js starter template with TypeScript, Tailwind CSS, and shadcn/ui",
+  "description": "This is a portfolio website for Rubaied Ahammed Rahi",
   "keywords": [
     "Rahi",
     "Bisakto-Rahi",
-    "nextjs",
-    "template",
-    "starter",
-    "typescript",
-    "tailwindcss",
-    "shadcn-ui",
-    "react",
-    "react-dom",
-    "react-redux",
-    "redux"
+    "Portfolio"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/nextjs-starter-template.git"
+    "url": "https://github.com/DarkRahi999/Portfolio_Website.git"
   },
   "author": "Bisakto-Rahi",
   "start-date": "2025-09-20",
   "last-updated": "2025-09-20",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/your-username/nextjs-starter-template/issues"
+    "url": "https://github.com/DarkRahi999/Portfolio_Website.git/issues"
   },
-  "homepage": "https://github.com/your-username/nextjs-starter-template#readme",
+  "homepage": "https://github.com/DarkRahi999/Portfolio_Website.git#readme",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "format": "prettier --write src",
     "lint": "next lint"
   },
   "dependencies": {
@@ -68,6 +60,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
+    "prettier": "^3.8.1",
     "tailwindcss": "^4",
     "tw-animate-css": "^1.3.4",
     "typescript": "^5"

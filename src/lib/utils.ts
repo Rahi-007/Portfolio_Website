@@ -20,7 +20,6 @@ export const fadeRightAnimation = (x = 20, duration = 0.5, delay = 0) => ({
   transition: { duration, delay },
 });
 
-
 //W---------={ FadeUp Animation }=----------</br>
 export const fadeUp = {
   hidden: (y = 0) => ({

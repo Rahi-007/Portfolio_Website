@@ -44,7 +44,7 @@ export interface BookSearchParams {
   page: number;
   limit: number;
   sortBy?: string;
-  sortOrder?: 'ASC' | 'DESC';
+  sortOrder?: "ASC" | "DESC";
   createdBy?: number;
   dateFrom?: string;
   dateTo?: string;

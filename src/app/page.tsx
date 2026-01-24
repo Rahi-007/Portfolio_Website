@@ -23,6 +23,9 @@ export default function Home() {
         <Contact />
         <Stars />
       </div> */}
+      <div className="flex justify-center items-center h-screen">
+        Home Page
+      </div>
     </div>
   );
 }

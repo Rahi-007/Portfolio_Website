@@ -1,26 +1,10 @@
-// import type { Config } from "tailwindcss";
-
-// const config: Config = {
-// 	darkMode: "class",
-// 	content: [
-// 		"./src/**/*.{js,ts,jsx,tsx,mdx}",
-// 		"./app/**/*.{js,ts,jsx,tsx,mdx}",
-// 		"./components/**/*.{js,ts,jsx,tsx,mdx}",
-// 	],
-// 	theme: {
-// 		extend: {
-// 			screens: {
-// 				sd: "426px",
-// 			},
-// 		},
-// 	},
-// 	plugins: [require("tailwindcss-animate")],
-// };
-
-// export default config;
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./app/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
+  ],
   mode: "jit",
   theme: {
     extend: {

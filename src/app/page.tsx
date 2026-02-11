@@ -9,12 +9,13 @@ import Works from "../components/layouts/Works";
 import Feedbacks from "../components/layouts/Feedbacks";
 import Stars from "../components/layouts/canvas/Stars";
 import Contact from "../components/layouts/Contact";
+import "../style/globals.css";
 
 export default function Home() {
   return (
-    <div className="p-4">
-      <div>{/* <Hero /> */}</div>
-      {/* <About />
+    <>
+      <Hero />
+      <About />
       <Experience />
       <Tech />
       <Works />
@@ -22,10 +23,10 @@ export default function Home() {
       <div>
         <Contact />
         <Stars />
-      </div> */}
-      <div className="flex justify-center items-center h-screen">
-        Home Page
       </div>
-    </div>
+      {/* <div className="flex justify-center items-center h-screen">
+        Home Page
+      </div> */}
+    </>
   );
 }

@@ -15,19 +15,20 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#915eff]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
-        <div className="">
+        <div>
           <h1
             className={cn(
               "text-white",
               styles.heroHeadText
             )}
-          >Hi, I'm <span className="text-[#915eff]">Rahi</span></h1>
+          >
+            Hi, I'm <span className="text-[#915eff]">Rahi</span></h1>
           <p
             className={cn(
               "text-white-100 mt-2",
               styles.heroSubText
             )}>
-            I develop 3D visuals, user <br className="sm:block hidden" /> interfaces and wen applications.
+            I develop 3D visuals, user <br className="sm:block hidden" /> interfaces and web applications.
           </p>
         </div>
       </div>

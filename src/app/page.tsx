@@ -1,6 +1,5 @@
 "use client";
 
-import Navbar from "../components/layouts/Navbar";
 import Hero from "../components/layouts/Hero";
 import About from "../components/layouts/About";
 import Experience from "../components/layouts/Experience";

@@ -32,7 +32,11 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <Computers />
+      <div className="absolute bottom-0 w-full flex justify-center items-end h-1/2">
+        <div className="w-full max-w-4xl h-full">
+          <Computers />
+        </div>
+      </div>
     </section>
   )
 };

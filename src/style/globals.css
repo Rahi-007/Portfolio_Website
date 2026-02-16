@@ -141,6 +141,7 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.5),
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7);
+    transform: rotate(0deg);
   }
   12.5% {
     box-shadow:
@@ -152,6 +153,7 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5);
+    transform: rotate(45deg);
   }
   25% {
     box-shadow:
@@ -163,6 +165,7 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+    transform: rotate(90deg);
   }
   37.5% {
     box-shadow:
@@ -174,6 +177,7 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+    transform: rotate(135deg);
   }
   50% {
     box-shadow:
@@ -185,6 +189,7 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+    transform: rotate(180deg);
   }
   62.5% {
     box-shadow:
@@ -196,6 +201,7 @@
       -1.8em 1.8em 0 0em #ffffff,
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+    transform: rotate(225deg);
   }
   75% {
     box-shadow:
@@ -207,6 +213,7 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.7),
       -2.6em 0em 0 0em #ffffff,
       -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2);
+    transform: rotate(270deg);
   }
   87.5% {
     box-shadow:
@@ -218,5 +225,6 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7),
       -1.8em -1.8em 0 0em #ffffff;
+    transform: rotate(315deg);
   }
 }
